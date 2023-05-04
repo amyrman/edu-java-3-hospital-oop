@@ -1,5 +1,15 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+apply plugin : "java" 
+ext {
+   javaMainClass = "edu.lernia.labb3.Hospital"
+}
+
+application {
+    mainClassName = javaMainClass
 }
 
 repositories {
