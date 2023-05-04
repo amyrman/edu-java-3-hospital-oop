@@ -1,13 +1,13 @@
 package edu.lernia.labb3;
 
 class Medicine {
-    private String treatsSickness;
+    private String treatSickness;
 
     public Medicine(String sickness) {
-        this.treatsSickness = sickness;
+        this.treatSickness = sickness;
     }
 
     public String getTreatmentName() {
-        return treatsSickness;
+        return treatSickness;
     }
 }

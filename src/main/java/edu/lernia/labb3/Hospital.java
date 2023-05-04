@@ -5,18 +5,18 @@ public class Hospital {
     private Patient[] patients;
 
     private Hospital() {
-        initaiteDoctors();
-        initaitePatients();
+        initiateDoctors();
+        initiatePatients();
         treatPatients();
     }
 
-    private void initaiteDoctors() {
+    private void initiateDoctors() {
         doctors = new Doctor[2];
         doctors[0] = new Doctor("Anna");
         doctors[1] = new Doctor("Bertil");
     }
 
-    private void initaitePatients() {
+    private void initiatePatients() {
         patients = new Patient[10];
         patients[0] = new Patient("Ali", "Atopiska vinterfötter");
         patients[1] = new Patient("Betty", "Blodförgiftning");
